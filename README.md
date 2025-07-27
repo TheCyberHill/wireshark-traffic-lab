@@ -19,6 +19,8 @@ This lab simulates malicious or anomalous TCP traffic and walks through dissecti
 - TCP handshake patterns and anomalies
 - Packet payload inspection and protocol behaviors
 - Using Netcat to generate and manipulate TCP traffic
+    - nc -l -p 4444
+    - echo -e "GET /login.php HTTP/1.1\r\nHost: evil.local\r\nAuthorization: Basic YWRtaW46aHVudGVyMg==\r\n\r\n" | nc -nv <eth0_IP> 4444
 - Identifying potentially malicious activity
 - Using filters and display options effectively in Wireshark
 
