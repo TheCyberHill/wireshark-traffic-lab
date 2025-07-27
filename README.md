@@ -15,7 +15,7 @@ This lab simulates malicious or anomalous TCP traffic and walks through dissecti
 - Netcat (nc): traffic simulation and basic payload crafting
 - Python (optional): for parsing and filtering logs
 
-🎯 What You'll Learn
+🎯 What I Learned
 - TCP handshake patterns and anomalies
 - Packet payload inspection and protocol behaviors
 - Using Netcat to generate and manipulate TCP traffic
@@ -32,4 +32,6 @@ This lab simulates malicious or anomalous TCP traffic and walks through dissecti
 💡 Why This Matters <br>
 Network analysis is ground zero for threat detection. This lab emphasizes hands-on skills that mirror real-world investigative work—perfect for aspiring threat hunters or SOC analysts.
 
-
+<img src="Wireshark1.png" width="500">
+<img src="Wireshark2.png" width="500">
+<img src="Wireshark3.png" width="500">
